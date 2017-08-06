@@ -1,0 +1,79 @@
+body {
+	background-color: #fff;
+	color: #000;
+}
+
+#header-nav {
+  background-color: #999;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px black solid;
+}
+
+.navbar-brand h1 {
+	margin-top: -5px;
+	color: black;
+	font-size: 1.5em;
+}
+
+#nav-list {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#nav-list a {
+	text-align: center;
+	color: black;
+	padding: 0px;
+	margin: 0;
+}
+
+#nav-list hr {
+	margin-top:10px;
+	margin-bottom:10px;
+	width: 98%;
+	border-color: #000;
+}
+
+.item-container {
+	background-color: #999;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.item-container h3 {
+	margin: 0px;
+	padding: 20px;
+}
+.item-container p {
+	margin: 0px;
+	padding:0px 20px 20px 20px;
+}
+@media (max-width: 767px) {
+.navbar-header {
+	border-bottom: 1px black solid;
+}
+
+#collapsable-nav {
+  border-bottom: 1px black solid;
+	background-color: #ccc;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+#header-nav {
+	border-bottom: 1px black solid;
+}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+#header-nav {
+	border-bottom: 1px black solid;
+}
+}
+@media (min-width: 1200px) {
+#header-nav {
+	border-bottom: 1px black solid;
+}
+}
